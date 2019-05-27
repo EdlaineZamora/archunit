@@ -1,4 +1,4 @@
-package com.myapp;
+package com.myapp.general;
 
 import com.tngtech.archunit.core.importer.ImportOption.DoNotIncludeTests;
 import com.tngtech.archunit.junit.AnalyzeClasses;

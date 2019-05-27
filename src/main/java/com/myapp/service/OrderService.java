@@ -2,6 +2,7 @@ package com.myapp.service;
 
 import com.myapp.repository.OrderRepository;
 
+@Service
 public class OrderService {
 
     private final OrderRepository orderRepository;

@@ -1,4 +1,4 @@
-package com.myapp;
+package com.myapp.extensions;
 
 import com.tngtech.archunit.core.domain.JavaClass;
 import com.tngtech.archunit.core.domain.JavaConstructor;

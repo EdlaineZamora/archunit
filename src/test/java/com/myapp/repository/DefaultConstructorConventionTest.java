@@ -1,6 +1,6 @@
 package com.myapp.repository;
 
-import com.myapp.ArchUnitExtensions;
+import com.myapp.extensions.ArchUnitExtensions;
 import com.tngtech.archunit.core.importer.ImportOption;
 import com.tngtech.archunit.junit.AnalyzeClasses;
 import com.tngtech.archunit.junit.ArchTest;
