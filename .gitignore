@@ -15,6 +15,7 @@
 .idea/*.iml
 .idea/modules
 
+target/
 out/
 .idea_modules/
 .idea/
