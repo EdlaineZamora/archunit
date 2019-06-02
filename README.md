@@ -11,3 +11,5 @@ Você pode executar os testes com Maven com o seguinte comando ou através de su
 ```
  mvn test
 ```
+
+Repositório criado juntamente com [@erikaya](https://github.com/erikaya)
