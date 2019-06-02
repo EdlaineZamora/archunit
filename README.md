@@ -12,4 +12,12 @@ Você pode executar os testes com Maven com o seguinte comando ou através de su
  mvn test
 ```
 
+##### Exemplos contidos nessa aplicação
+- Depêndencia Cíclica entre pacotes
+- Exceções Genéricas
+- Dependência entre camadas em uma Arquitetura em Camadas
+- Convenção de Nome de classes
+- Construtor Padrão
+- Uso de anotação
+
 Repositório criado juntamente com [@erikaya](https://github.com/erikaya)
