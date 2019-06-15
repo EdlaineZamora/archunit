@@ -29,7 +29,7 @@ public class ArchUnitExtensions {
             }
 
             private boolean doesNotHaveParameters(JavaConstructor constructor) {
-                return constructor.getRawParameterTypes().size() == 0;
+                return constructor.getRawParameterTypes().isEmpty();
             }
 
             private boolean canBeInstantiated(JavaConstructor constructor) {
@@ -42,7 +42,5 @@ public class ArchUnitExtensions {
             }
         };
     }
-
-
 
 }
