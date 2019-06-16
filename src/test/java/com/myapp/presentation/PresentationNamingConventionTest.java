@@ -12,6 +12,6 @@ class PresentationNamingConventionTest {
     @ArchTest
     static final ArchRule classThatResideInPresentationPackageShouldBeHaveControllerSufix =
             ArchRuleDefinition.classes()
-                .should().haveSimpleNameEndingWith("Controller");
+                .should().haveSimpleNameEndingWith("Endpoint");
 
 }
