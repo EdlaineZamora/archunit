@@ -20,4 +20,7 @@ Você pode executar os testes com Maven com o seguinte comando ou através de su
 - Construtor Padrão
 - Uso de anotação
 
+##### Exemplo de testes que encontram problema na arquitetura
+- Faça o checkout da branch TDC-BH-2019 e execute os testes. Todos estão falhando por falha nos padrões arquiteturais.
+
 Repositório criado juntamente com [@erikaya](https://github.com/erikaya)
