@@ -10,7 +10,7 @@ import com.tngtech.archunit.lang.syntax.ArchRuleDefinition;
 class AnnotationConventionTest {
 
     @ArchTest
-    static final ArchRule classesShoulBeAnnotatedWithServiceAnnotation = ArchRuleDefinition.classes()
+    static final ArchRule classesShouldBeAnnotatedWithServiceAnnotation = ArchRuleDefinition.classes()
             .that().resideInAPackage("..service..")
             .and().haveSimpleNameEndingWith("Service")
             .and().areNotInterfaces()
