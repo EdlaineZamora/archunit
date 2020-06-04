@@ -6,11 +6,11 @@ import com.tngtech.archunit.junit.ArchTest;
 import com.tngtech.archunit.lang.ArchRule;
 import com.tngtech.archunit.lang.syntax.ArchRuleDefinition;
 
-@AnalyzeClasses(packages = "..com.myapp.presentation..", importOptions = {DoNotIncludeTests.class})
+@AnalyzeClasses(packages = "com.myapp.presentation", importOptions = {DoNotIncludeTests.class})
 class PresentationNamingConventionTest {
 
     @ArchTest
-    static final ArchRule classThatResideInPresentationPackageShouldBeHaveControllerSufix =
+    static final ArchRule classThatResideInPresentationPackageShouldBeHaveControllerSuffix =
             ArchRuleDefinition.classes()
                 .should().haveSimpleNameEndingWith("Controller");
 
