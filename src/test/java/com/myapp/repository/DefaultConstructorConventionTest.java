@@ -7,7 +7,7 @@ import com.tngtech.archunit.junit.ArchTest;
 import com.tngtech.archunit.lang.ArchRule;
 import com.tngtech.archunit.lang.syntax.ArchRuleDefinition;
 
-@AnalyzeClasses(packages = "..com.myapp.repository..", importOptions = {ImportOption.DoNotIncludeTests.class})
+@AnalyzeClasses(packages = "com.myapp.repository", importOptions = {ImportOption.DoNotIncludeTests.class})
 class DefaultConstructorConventionTest {
 
     @ArchTest

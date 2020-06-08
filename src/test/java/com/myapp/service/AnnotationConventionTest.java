@@ -6,7 +6,7 @@ import com.tngtech.archunit.junit.ArchTest;
 import com.tngtech.archunit.lang.ArchRule;
 import com.tngtech.archunit.lang.syntax.ArchRuleDefinition;
 
-@AnalyzeClasses(packages = "com.myapp..", importOptions = DoNotIncludeTests.class)
+@AnalyzeClasses(packages = "com.myapp", importOptions = DoNotIncludeTests.class)
 class AnnotationConventionTest {
 
     @ArchTest
